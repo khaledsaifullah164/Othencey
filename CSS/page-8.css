@@ -1,0 +1,253 @@
+
+#bannar_part{
+    background: url(../images/bannarvector.png) no-repeat center;
+    background-size: cover;
+    background-color: rgb(48, 44, 44);
+    padding-top: 210px;
+    padding-bottom: 117px;
+  }
+  
+  
+  #bannar_part .text_blog .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 165px;
+    padding-bottom: 154px;
+  }
+  #bannar_part .text_blog .text h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px; /* 89.13% */
+  
+  
+  }
+  #bannar_part .text_blog .text p{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+  }
+  #bannar_part .text_blog .text p span{
+    background: var(--Gredient, linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+  
+}
+  
+
+
+
+
+
+
+#david {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .david-bg {
+    background: #f4f4ff;
+    padding: 30px 30px;
+    border-radius: 20px;
+  }
+  .david-img img {
+    height: 100%;
+    width: 100%;
+  }
+  .david-title h2 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 36px;
+    color: #1a1a1a;
+    font-weight: bold;
+    padding-bottom: 7px;
+  }
+  .david-title p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    color: #6b6161;
+    font-weight: normal;
+    padding-bottom: 36px;
+  }
+  .f-me h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    color: #1a1a1a;
+    font-weight: normal;
+  }
+  .devid-social ul {
+    display: flex;
+  }
+  .devid-social ul li {
+    background: #ffff;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin-right: 10px;
+  }
+  .devid-social ul li a {
+    color: #3661fc;
+    font-size: 20px;
+  }
+  .devid-social ul li:hover {
+    background: #3661fc;
+    transition: all linear 0.5s;
+  }
+  .devid-social ul li:hover a {
+    color: #ffff;
+    transition: all linear 0.5s;
+  }
+  
+  .ex-icon a {
+    font-size: 25px;
+  }
+  .ex-text h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    color: #1a1a1a;
+    font-weight: bold;
+  }
+  .spn span {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    color: #6b6161;
+    font-weight: normal;
+  }
+  /* CAREER PLAN CSS */
+  #career {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .career-left-top img {
+    padding-bottom: 10px;
+  }
+  .carrer-left-bottom h2 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 46px;
+    color: #1a1a1a;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .carrer-left-bottom p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    color: #636363;
+    font-weight: normal;
+    padding-bottom: 20px;
+  }
+  .carrer-left-bottom ul {
+    list-style-type: circle;
+  }
+  .carrer-left-bottom ul li {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: #1a1a1a;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  
+  .carrer-right-top h2 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 44px;
+    color: #1a1a1a;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  .carrer-right-top p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    color: #636363;
+    font-weight: normal;
+    padding-bottom: 20px;
+  }
+  .career-right-bottom {
+    padding-top: 34px;
+  }
+  /* CAREER PLAN CSS */
+  /* CONTACT ME CSS START */
+  #contact {
+    padding-bottom: 100px;
+  }
+  .cont-bg {
+    background: #f4f4ff;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  .cont-right {
+    width: 605px;
+    height: 525px;
+    border-radius: 20px;
+    background: #cccccc;
+  }
+  .cont-left h2 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 46px;
+    color: #1a1a1a;
+    font-weight: bold;
+    padding-bottom: 7px;
+  }
+  .cont-left p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    color: #6b6161;
+    font-weight: normal;
+    padding-bottom: 20px;
+  }
+  .input1 {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #ffff;
+    border-radius: 20px;
+    border: none;
+    height: 56px;
+    width: 281px;
+  }
+  .input3 {
+    height: 56px;
+    width: 582px;
+    padding: 20px;
+    background: #ffff;
+    border-radius: 20px;
+    border: none;
+  }
+  .input4 {
+    margin-top: 20px;
+    height: 171px;
+    width: 582px;
+    padding: 20px;
+    background: #ffff;
+    border-radius: 20px;
+    border: none;
+  }
+  .cnt-btn {
+    padding-top: 20px;
+  }
+  .free-btn button {
+	background: linear-gradient(#FE651B, #FFAA52);
+	height: 55px;
+	width: 180px;
+	border-radius: 55px;
+	border: none;
+}
+.free-btn button a {
+	color: #fff;
+	font-family: "DM Sans", sans-serif;
+	font-size: 18px;
+}
+  /* CONTACT ME CSS END */

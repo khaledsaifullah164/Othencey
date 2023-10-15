@@ -1,0 +1,190 @@
+#bannar_part{
+    background: url(../images/bannarvector.png) no-repeat center;
+    background-size: cover;
+    background-color: rgb(48, 44, 44);
+    padding-top: 210px;
+    padding-bottom: 117px;
+  }
+  
+  
+  #bannar_part .text_blog .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 165px;
+    padding-bottom: 154px;
+  }
+  #bannar_part .text_blog .text h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px; /* 89.13% */
+  
+  
+  }
+  #bannar_part .text_blog .text p{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+  }
+  #bannar_part .text_blog .text p span{
+    background: var(--Gredient, linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+  
+  }
+  
+
+  #servicedetails {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .seo-bg {
+    padding: 10px;
+    background: #f4f4ff;
+    border-radius: 20px;
+  }
+  .seo-bg img {
+    height: 100%;
+    width: 100%;
+  }
+  .seo-common h3 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 36px;
+    color: #1a1a1a;
+    padding-top: 36px;
+    font-weight: bold;
+  }
+  .seo-common p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    color: #1a1a1a;
+    padding-top: 36px;
+  }
+  .process-left1 {
+    position: relative;
+  }
+  .process-common h3 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 36px;
+    color: #1a1a1a;
+    /* padding-top: 36px; */
+    font-weight: bold;
+  }
+  .process-left2 {
+    position: absolute;
+    left: 80px;
+    top: 110px;
+    margin-left: 10px;
+  }
+  .process-bg {
+    background: #f4f4ff;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .process-details {
+    padding-left: 3px;
+  }
+  .process-details h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 27px;
+    color: #1a1a1a;
+    font-weight: bold;
+  }
+  .process-details p {
+    padding-top: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    color: #1a1a1a;
+  }
+  .our-all-service {
+    background: #ffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* height: 383px; */
+    width: 369px;
+  }
+  .service-shape img {
+    height: 100%;
+    width: 100%;
+  }
+  .shape-common h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 30px;
+    color: #1a1a1a;
+    font-weight: bold;
+  }
+  
+  .service-btn button {
+    background: #f4f4ff;
+    border-radius: 55px;
+    border: none;
+    padding: 10px 20px;
+  }
+  .service-btn button a {
+    color: #1a1a1a;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+  }
+  .service-btn button:hover {
+    background: #fe651b;
+    transition: all linear 0.5s;
+  }
+  .service-btn button:hover a {
+    color: #ffff;
+    transition: all linear 0.5s;
+  }
+  .get-all-service {
+    background: #000000;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* height: 383px; */
+    width: 369px;
+  }
+  .get-common h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+  }
+  .quote1 {
+    padding: 10px;
+    width: 284px;
+    height: 56px;
+    background: #f4f4f4;
+    border: none;
+    border-radius: 20px;
+  }
+  .quote2 {
+    padding: 10px;
+    width: 284px;
+    height: 200px;
+    background: #f4f4f4;
+    border: none;
+    border-radius: 20px;
+  }
+  .ss-3 {
+    padding-left: 3rem !important;
+  }
+  
+  .sign img{
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  

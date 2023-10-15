@@ -1,0 +1,217 @@
+#bannar_part{
+    background: url(../images/bannarvector.png) no-repeat center;
+    background-size: cover;
+    background-color: rgb(48, 44, 44);
+    padding-top: 210px;
+    padding-bottom: 117px;
+  }
+  
+  
+  #bannar_part .text_blog .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 165px;
+    padding-bottom: 154px;
+  }
+  #bannar_part .text_blog .text h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px; /* 89.13% */
+  
+  
+  }
+  #bannar_part .text_blog .text p{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+  }
+  #bannar_part .text_blog .text p span{
+    background: var(--Gredient, linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+  
+  }
+  
+
+  /* SHOP CSS START */
+#shopnow {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .shop-left-box {
+    background: #ffff;
+    padding: 30px;
+    border-radius: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* height: 383px; */
+    /* width: 369px; */
+    border: 1px solid #fe651b !important;
+    overflow: hidden;
+  }
+  
+  .shop-search-btn button {
+    background: #fe651b;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 20px;
+    width: 245px;
+  }
+  .shop-search-btn button a {
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+  }
+  .shop-icon {
+    color: #fff;
+  }
+  .range-shape img {
+    height: 100%;
+    width: 100%;
+  }
+  .shop-price p span {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    color: #1a1a1a;
+    font-weight: bold;
+  }
+  .shop-price p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    color: #6b6161;
+    font-weight: 400;
+  }
+  .shop-common h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 26px;
+    color: #1a1a1a;
+    font-weight: bold;
+  }
+  .product-ct-left ul li {
+    list-style-type: circle;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    color: #6b6161;
+    padding-top: 7px;
+  }
+  .product-quan ul li {
+    /* list-style-type: circle; */
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    color: #6b6161;
+    padding-top: 7px;
+    padding-left: 10px;
+  }
+  #shopnow ol,
+  ul {
+    padding-left: 1rem !important;
+  }
+  #shopnow .shop-dropdown .dropdown {
+    background: #e5ebef !important;
+  }
+  #shopnow .shop-card {
+    padding: 30px;
+    background: #f4f4ff;
+    border-radius: 20px;
+    border: none;
+  }
+  .reviews {
+    color: #fcc013;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+  }
+  .reviews p {
+    color: #6b6161 !important;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+  }
+  .shop-img {
+    display: flex;
+    justify-content: center;
+  }
+  #shopnow .shop-card .card-dtls p {
+    color: #1a1a1a;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    padding-top: 43px;
+  }
+  #shopnow .shop-card .card-dtls h4 {
+    color: #1a1a1a;
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+  }
+  #shopnow .shop-card .card-dtls h4 span {
+    text-decoration: line-through;
+    color: #6b6161;
+  }
+  #shopnow .shop-card .shop-card-btn button {
+    background: #ffffff;
+    border-radius: 55px;
+    border: none;
+    padding: 10px 20px;
+    height: 50px;
+    width: 245px;
+  }
+  #shopnow .shop-card .shop-card-btn button a {
+    color: #6b6161;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+  }
+  #shopnow .shop-card:hover .shop-card-btn button a {
+    color: #3661fc;
+    transition: all linear 0.5s;
+  }
+  #shopnow .shop-card:hover .card-dtls p {
+    color: #3661fc;
+    transition: all linear 0.5s;
+  }
+  #shopnow .card-next ul {
+    display: flex;
+    justify-content: end;
+  }
+  #shopnow .card-next ul li {
+    padding-left: 10px;
+  }
+  #shopnow .card-next ul li a {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    height: 40px;
+    width: 40px;
+    background: #f4f4ff;
+    border-radius: 50%;
+    color: #1a1a1a;
+    text-align: center;
+    line-height: 40px;
+  }
+  #shopnow .card-next ul li a:hover {
+    background: #3661fc;
+    color: #fff;
+    transition: all linear 0.5s;
+  }
+
+
+  .dropdown-toggle {
+	white-space: nowrap;
+	color: #000;
+	background: #F4F4FF;
+    border: 0;
+    outline: 0;
+}
+  /* SHOP CSS END */
+  

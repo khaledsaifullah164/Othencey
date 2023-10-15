@@ -1,0 +1,203 @@
+img
+
+
+
+#bannar_part{
+    background: url(../images/bannarvector.png) no-repeat center;
+    background-size: cover;
+    background-color: rgb(48, 44, 44);
+    padding-top: 210px;
+    padding-bottom: 117px;
+  }
+  
+  
+  #bannar_part .text_blog .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 165px;
+    padding-bottom: 154px;
+  }
+  #bannar_part .text_blog .text h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px; /* 89.13% */
+  
+  
+  }
+  #bannar_part .text_blog .text p{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+  }
+  #bannar_part .text_blog .text p span{
+    background: var(--Gredient, linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+  
+  }
+  
+
+
+
+  /* PPORTFOLIO PART CSS START */
+#portfolio-details {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .port-banner img {
+    height: 100%;
+    width: 100%;
+  }
+  .port-date {
+    background: #f4f4ff;
+    padding: 60px;
+    border-radius: 20px;
+  }
+  .port-start-date h3 {
+    color: #1a1a1a;
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .port-start-date h3 span {
+    color: #1a1a1a;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 20px;
+  }
+  .human-common h3 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 30px;
+    color: #1a1a1a;
+    padding-top: 36px;
+    font-weight: bold;
+  }
+  .human-common p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    color: #1a1a1a;
+    padding-top: 36px;
+  }
+  .portimg img {
+    height: 100%;
+    width: 100%;
+  }
+  .need-shape img {
+    height: 100%;
+    width: 100%;
+  }
+  .need-help h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 30px;
+    color: #1a1a1a;
+    font-weight: bold;
+  }
+  .need-help {
+    background: #ffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* height: 383px; */
+    width: 500px;
+  }
+  .need-icon span {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    color: #1a1a1a;
+    padding-left: 10px;
+  }
+  .need-icon img{
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .saifullah {
+    padding-left: 34px !important;
+  }
+  .need-text p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    color: #1a1a1a;
+    padding-top: 20px;
+  }
+  
+  .sign img{
+    display: inline-block;
+    margin-right: 10px;
+  }
+  /* PPORTFOLIO PART CSS END */
+  /* SLIDER PART CSS START */
+  #slider {
+    /* position: relative; */
+    padding-bottom: 100px;
+  }
+  .somolar-project h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 36px;
+    color: #1a1a1a;
+    padding-top: 20px;
+    font-weight: bold;
+  }
+  .slider-1 img {
+    height: 100%;
+    width: 97%;
+  }
+  .slider-wrapper {
+    position: relative;
+  }
+
+  #slider h2{
+    color: var(--Black, #1A1A1A);
+    font-family: Nunito;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+  }
+
+.left {
+	display: inline-block;
+	position: absolute;
+	right: 80px;
+	top: -86px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 60px;
+	font-size: 20px;
+	z-index: 1;
+	color: #fff;
+	background: var(--Gredient, linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%));
+}
+.right {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: -86px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 60px;
+	font-size: 20px;
+	z-index: 1;
+	color: #fff;
+	background: var(--Gredient, linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%));
+}
+  /* SLIDER PART CSS END */

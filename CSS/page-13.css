@@ -1,0 +1,256 @@
+#bannar_part{
+    background: url(../images/bannarvector.png) no-repeat center;
+    background-size: cover;
+    background-color: rgb(48, 44, 44);
+    padding-top: 210px;
+    padding-bottom: 117px;
+  }
+  
+  
+  #bannar_part .text_blog .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 165px;
+    padding-bottom: 154px;
+  }
+  #bannar_part .text_blog .text h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px; /* 89.13% */
+  
+  
+  }
+  #bannar_part .text_blog .text p{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+  }
+  #bannar_part .text_blog .text p span{
+    background: var(--Gredient, linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+
+}
+
+
+
+
+#common_question_part .container{
+    padding-bottom: 90px;
+}
+#common_question_part .container .row .col-lg-6  h6 {
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: var(--Gredient, linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 16px;
+    padding-top: 119px;
+}
+#common_question_part .container .row .col-lg-6 h6 img{
+    display: inline-block;
+    margin-right: 10px;
+}
+#common_question_part .container .row .col-lg-6 h3{
+    color: var(--Black, #1A1A1A);
+    font-family: Nunito;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    padding-bottom: 47px;
+}
+#common_question_part .container .row .col-lg-6 .row .col-lg-6 p{
+    color: var(--Black, #1A1A1A);
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 500px;
+    background: var(--Off-White, #F4F4FF);
+    padding: 17px 30px;
+    transition: all linear .4s;
+    margin-bottom: 20px;
+}
+#common_question_part .container .row .col-lg-6 .row .col-lg-6 p:hover{
+    color: var(--Black, #fff);
+    background: var(--Parbel, #3661FC);
+}
+#common_question_part .container .row .col-lg-6 .row .col-lg-6 p img{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+#common_question_part .container .row .col-lg-6 .row .col-lg-6 .image{
+    width: 100%;
+    padding-top: 1px;
+}
+#common_question_part .container .row .col-lg-6 .row .col-lg-6 .image img{
+    width: 100%;
+}
+#common_question_part .container .row .col-lg-6 .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 40px;
+    border-radius: 500px;
+    background: var(--White, #FFF);
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+#common_question_part .container .row .col-lg-6 .text h5{
+    color: var(--Black, #1A1A1A);
+    font-family: Nunito;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: all linear .4s;
+}
+#common_question_part .container .row .col-lg-6 .text h5:hover{
+    color: var(--Black, #3661FC);
+}
+#common_question_part .container .row .col-lg-6 .text i{
+    font-size: 23px;
+    color: #3661FC;
+}
+#common_question_part .container .row .col-lg-6 .text_details{
+    padding: 23px 40px 26px;
+    border-radius: 50px;
+    background: var(--White, #FFF);
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+#common_question_part .container .row .col-lg-6 .text_details .text01{
+    display: flex;
+    justify-content: space-between;
+}
+#common_question_part .container .row .col-lg-6 .text_details .text01 h5{
+    color: var(--Black, #1A1A1A);
+    font-family: Nunito;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: all linear .4s;
+}
+#common_question_part .container .row .col-lg-6 .text_details .text01 h5:hover{
+    color: var(--Black, #3661FC);
+}
+#common_question_part .container .row .col-lg-6 .text_details .text01 i{
+    font-size: 23px;
+    color: #3661FC;
+}
+#common_question_part .container .row .col-lg-6 .text_details p{
+    color: var(--Body-Text-Color, #6B6161);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    padding-top: 16px;
+}
+
+
+
+
+
+#ask_question_part{
+    background: url(../images//footer_bg_02.jpg) no-repeat center/ cover;
+}
+#ask_question_part .container .row .col-lg-6 .image{
+    width: 647px;
+    height: 494px;
+    border-radius: 20px;
+    background: var(--Placeholder, #CCC);
+    margin: 120px 0;
+
+}
+#ask_question_part .container .row .col-lg-6 form h4{
+    color: var(--B, #252424);
+    font-family: Nunito;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; 
+    padding-top: 103px;
+}
+#ask_question_part .container .row .col-lg-6 form p{
+    color: var(--Body-Text-Color, #6B6161);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    width: 506px;
+}
+#ask_question_part .container .row .col-lg-6 form input{
+    width: 344px;
+    height: 56px;
+    border-radius: 500px;
+    background: #FFF;
+    border: 0;
+    outline: 0;
+    padding: 32px 21px;
+    color: #9A9A9A;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    margin-top: 38px;
+}
+#ask_question_part .container .row .col-lg-6 form textarea{
+    width: 708px;
+    height: 171px;
+    border-radius: 30px;
+    background: var(--W, #FFF);
+    border: 0;
+    outline: 0;
+    padding: 16px 23px;
+    color: #9A9A9A;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    margin-top: 20px;
+}
+#ask_question_part .container .row .col-lg-6 form button{
+    padding: 15px 33px;
+    border-radius: 50px;
+    background: var(--Gredient, linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%));
+    border: 0;
+    outline: 0;
+    margin-top: 40px;
+}
+#ask_question_part .container .row .col-lg-6 form button a{
+    color: var(--White, #FFF);
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+}

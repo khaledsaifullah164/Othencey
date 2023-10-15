@@ -1,0 +1,168 @@
+
+#bannar_part{
+    background: url(../images/bannarvector.png) no-repeat center;
+    background-size:cover ;
+    background-color: #1A1A1A;
+}
+#bannar_part .text_blog .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 165px;
+}
+#bannar_part .text_blog .text h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px; /* 89.13% */
+    margin-top: 166px;
+    padding-bottom: 30px;
+}
+#bannar_part .text_blog .text p{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+    padding-bottom: 154px;
+}
+#bannar_part .text_blog .text p span{
+    background: var(--Gredient, linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+
+}
+
+
+
+
+
+#portfolio_part .container h6{
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: var(--Gredient, linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 119px;
+}
+#portfolio_part .container h6 img{
+    display: inline-block;
+    margin-right: 10px;
+}
+#portfolio_part .container h3{
+    color: var(--Black, #1A1A1A);
+    font-family: Nunito;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    padding-bottom: 47px;
+}
+#portfolio_part .container .row{
+    row-gap: 12px;
+}
+#portfolio_part .container .row .col-lg-4{
+    overflow: hidden;
+}
+#portfolio_part .container .row .col-lg-4  .slider{
+    width: 426px;
+    height: 426px;
+    position: relative;
+}
+#portfolio_part .container .row .col-lg-4  .slider .image{
+    width: 100%;
+    height: 100%;
+    background: #CCC;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all linear .4s;
+}
+#portfolio_part .container .row .col-lg-4  .slider .image:hover{
+    position: absolute;
+    left: 0px;
+    top: -103px;
+    border-radius: 10px 10px 50px 50px;
+}
+#portfolio_part .container .row .col-lg-4  .slider .text{
+    width: 100%;
+    background: #F4F4F4;
+    padding: 60px 50px 28px;
+    display: flex;
+    justify-content: space-between;
+    border-radius:0 0 50px 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+#portfolio_part .container .row .col-lg-4  .slider .text .tx_details h5{
+    color: var(--Black, #1A1A1A);
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#portfolio_part .container .row .col-lg-4  .slider .text .tx_details p{
+    color: var(--Body-Text-Color, #6B6161);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+#portfolio_part .container .row .col-lg-4  .slider .text i{
+    color: #fff;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 48px;
+    text-align: center;
+    background: linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%);
+}
+#portfolio_part .container  button{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    padding: 60px 0 120px;
+    text-align: center;
+    width: 100%;
+}
+#portfolio_part .container  button a {
+	color: var(--White, #fff);
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+    background: linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%);
+	padding: 14px 23px;
+	border-radius: 500px;
+}
+
+
+
+
+
+
